@@ -1,0 +1,69 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.env
+secrets/
+.secrets/
+*.pem
+*.key
+*.pfx
+id_rsa*
+id_ed25519*
+.npmrc
+.yarnrc
+.yarnrc.yml
+.pypirc
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.turbo/
+*.tsbuildinfo
+
+# Test / coverage
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+allure-results/
+junit.xml
+
+# Runtime artifacts / logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/
+*.pid
+artifacts/
+uploads/
+tmp/
+temp/
+
+# Databases / caches
+*.db
+*.sqlite
+*.dump
+.cache/
+.eslintcache
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker local state
+docker-compose.override.yml
